@@ -7,7 +7,7 @@ const Hero = () => {
     <section className="relative w-full
     h-screen mx-auto">
       <div className={`${styles.paddingX} 
-      absolute inset-0 top-[120px] max-w-7x1 mx-auto flex 
+      absolute inset-0 top-[120px] max-w-7xl mx-auto flex 
       flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center
          items-center mt-5">
@@ -34,7 +34,7 @@ const Hero = () => {
       justify-center items-center">
         <a href="about">
           <div className="w-[35px] h-[64px]
-          rounded-3x1 border-4 border-secondary flex justify-center items-start p-2">
+          rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.dev 
               animate={{
                 y: [0, 24, 0]

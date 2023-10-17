@@ -31,6 +31,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import youtube from "./youtube.png";
+import googlesearch from "./googlesearch.png";
+import socialmedia from "./socialmedia.png";
 
 export {
   logo,
@@ -61,6 +64,9 @@ export {
   starbucks,
   tesla,
   carrent,
+  youtube,
+  googlesearch,
+  socialmedia,
   jobit,
   tripguide,
 };

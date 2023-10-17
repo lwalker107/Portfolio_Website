@@ -20,6 +20,9 @@ import {
     tesla,
     shopify,
     carrent,
+    youtube,
+    googlesearch,
+    socialmedia,
     jobit,
     tripguide,
     threejs,
@@ -194,67 +197,66 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Youtube Clone",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Developed a clone of the popular website Youtube using React framework that incorporates Youtube's API to grab videos, allows the user to search for related videos, visit profiles and play videos.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
         },
         {
           name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: youtube,
+      source_code_link: "https://github.com/lwalker107/Landen_Youtube_Clone",
+      deployed: "",
     },
     {
-      name: "Job IT",
+      name: "Google Book Search",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Google Search Application for books using GraphQL apis",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "graphQL",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "mongoDB",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: googlesearch,
+      source_code_link: "https://github.com/lwalker107/Landen_GraphQL",
+      deployed: "https://landen-google-search-books-d994617ca65f.herokuapp.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Social Media API",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Backend for Social Media site using MongoDB, Express and Mongoose that allows users to use the different API routes to get information on all the users/thoughts, information on a single user/thought and create/update/delete users/thoughts. You are also able to create/delete new friends for each user and new reactions for each thought.",
       tags: [
         {
-          name: "nextjs",
+          name: "mongoDB",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Express.js",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: socialmedia,
+      source_code_link: "https://github.com/lwalker107/Landen_Social_Media_API",
+      deployed: ""
     },
   ];
   
