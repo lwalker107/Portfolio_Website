@@ -26,6 +26,9 @@ import {
     employee_management,
     passwordgenerator,
     weatherapp,
+    github,
+    youtubeicon,
+    linkedIn,
     jobit,
     tripguide,
     threejs,
@@ -41,8 +44,27 @@ import {
       title: "Work",
     },
     {
+      id: "resume",
+      title: "Resume"
+    },
+    {
       id: "contact",
       title: "Contact",
+    },
+  ];
+
+  export const footerLinks = [
+    {
+      id: "github",
+      icon: github,
+    },
+    {
+      id: "linkedIn",
+      icon: linkedIn,
+    },
+    {
+      id: "youtube",
+      icon: youtubeicon,
     },
   ];
   
