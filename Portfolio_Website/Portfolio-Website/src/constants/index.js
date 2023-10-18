@@ -23,6 +23,9 @@ import {
     youtube,
     googlesearch,
     socialmedia,
+    employee_management,
+    passwordgenerator,
+    weatherapp,
     jobit,
     tripguide,
     threejs,
@@ -256,7 +259,73 @@ import {
       ],
       image: socialmedia,
       source_code_link: "https://github.com/lwalker107/Landen_Social_Media_API",
-      deployed: ""
+      deployed: "",
+    },
+    {
+      name: "Employee Management System",
+      description:
+        "A management system created to handle databases containing departments, employees and roles. By using mySQL for the databases and using Nodejs and Inquirer for the backend, the user is able to view, add, delete and update the 3 databases however they want.",
+      tags: [
+        {
+          name: "mySQL",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Inquirer",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: employee_management,
+      source_code_link: "https://github.com/lwalker107/Landen_Employee_Manager#screenshot",
+      deployed: "https://drive.google.com/file/d/1RqK-ZU_w13MFK6ILvQILrRfuzzgkoifP/view",
+    },
+    {
+      name: "Password Generator",
+      description:
+      "Created a working password generator that took in user input through a series of prompts.",
+      tags: [
+        {
+          name: "css",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "html",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: passwordgenerator,
+      source_code_link: "https://github.com/lwalker107/Password-Generator-Landen",
+      deployed: "https://lwalker107.github.io/Password-Generator-Landen/",
+    },
+    {
+      name: "Weather Dashboard App",
+      description:
+      "Weather Application that uses 3rd Party API Openweather to get real-time data for whatever city the user inputs into the search bar. Data includes temperature, wind speed, humidity, date, name and an icon that represents the weather. Uses localStorage to keep the data from previous searches persistent on the web app and includes a clear button to clear the local storage also.",
+      tags: [
+        {
+          name: "css",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "html",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: weatherapp,
+      source_code_link: "https://github.com/lwalker107/Weather-API-Landen",
+      deployed: "https://lwalker107.github.io/Weather-API-Landen/",
     },
   ];
   

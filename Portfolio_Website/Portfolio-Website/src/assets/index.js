@@ -34,6 +34,9 @@ import tripguide from "./tripguide.png";
 import youtube from "./youtube.png";
 import googlesearch from "./googlesearch.png";
 import socialmedia from "./socialmedia.png";
+import employee_management from "./employee_management.png"
+import passwordgenerator from "./passwordgenerator.png"
+import weatherapp from "./weatherapp.png"
 
 export {
   logo,
@@ -67,6 +70,9 @@ export {
   youtube,
   googlesearch,
   socialmedia,
+  employee_management,
+  passwordgenerator,
+  weatherapp,
   jobit,
   tripguide,
 };
