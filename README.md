@@ -69,7 +69,7 @@ None
 
 ## Screenshot
 
-![screenshot](./Portfolio-Website/src/assets/portfolio_screenshot.PNG)
+![screenshot](./src/assets/portfolio_screenshot.PNG)
 
 ## Link 
 
