@@ -55,18 +55,21 @@ import {
     },
   ];
 
-  export const footerLinks = [
+  const footerLinks = [
     {
       id: "github",
       icon: github,
+      url: "https://github.com/lwalker107",
     },
     {
       id: "linkedIn",
       icon: linkedIn,
+      url: "www.linkedin.com/in/landen-walker",
     },
     {
       id: "youtube",
       icon: youtubeicon,
+      url: "https://www.youtube.com/channel/UCP-Hn2OqbT5GzeIjZIBGheQ",
     },
   ];
   
@@ -361,4 +364,4 @@ import {
     }
   ]
   
-  export { services, technologies, experiences, testimonials, projects, my_resume };
+  export { footerLinks, services, technologies, experiences, testimonials, projects, my_resume };
