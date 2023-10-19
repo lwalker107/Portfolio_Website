@@ -29,6 +29,8 @@ import {
     github,
     youtubeicon,
     linkedIn,
+    resume,
+    landen_resume_v3,
     jobit,
     tripguide,
     threejs,
@@ -350,5 +352,13 @@ import {
       deployed: "https://lwalker107.github.io/Weather-API-Landen/",
     },
   ];
+
+  const my_resume = [
+    {
+      name: "Resume",
+      image: resume,
+      download: landen_resume_v3,
+    }
+  ]
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, my_resume };

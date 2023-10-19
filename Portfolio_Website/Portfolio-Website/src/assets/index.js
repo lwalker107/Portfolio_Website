@@ -39,6 +39,8 @@ import socialmedia from "./socialmedia.png";
 import employee_management from "./employee_management.png"
 import passwordgenerator from "./passwordgenerator.png"
 import weatherapp from "./weatherapp.png"
+import resume from "./resume.png"
+import landen_resume_v3 from "./landen_resume_v3.pdf"
 
 export {
   logo,
@@ -77,6 +79,8 @@ export {
   weatherapp,
   linkedIn,
   youtubeicon,
+  resume,
+  landen_resume_v3,
   jobit,
   tripguide,
 };
