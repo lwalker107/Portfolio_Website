@@ -34,6 +34,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    homepage_screenshot,
   } from "../assets";
   
   export const navLinks = [
@@ -232,12 +233,16 @@ import {
         "Developed a clone of the popular website Youtube using React framework that incorporates Youtube's API to grab videos, allows the user to search for related videos, visit profiles and play videos.",
       tags: [
         {
-          name: "react",
+          name: "FrontEnd",
           color: "blue-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Tailwind",
           color: "pink-text-gradient",
+        },
+        {
+          name: "React",
+          color: "green-text-gradient",
         },
       ],
       image: youtube,
@@ -250,15 +255,15 @@ import {
         "Google Search Application for books using GraphQL apis",
       tags: [
         {
-          name: "react",
+          name: "Fullstack",
           color: "blue-text-gradient",
         },
         {
-          name: "graphQL",
+          name: "GraphQL",
           color: "green-text-gradient",
         },
         {
-          name: "mongoDB",
+          name: "React",
           color: "pink-text-gradient",
         },
       ],
@@ -272,7 +277,7 @@ import {
         "Backend for Social Media site using MongoDB, Express and Mongoose that allows users to use the different API routes to get information on all the users/thoughts, information on a single user/thought and create/update/delete users/thoughts. You are also able to create/delete new friends for each user and new reactions for each thought.",
       tags: [
         {
-          name: "mongoDB",
+          name: "Backend",
           color: "blue-text-gradient",
         },
         {
@@ -280,7 +285,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Javascript",
+          name: "MongoDB",
           color: "pink-text-gradient",
         },
       ],
@@ -294,7 +299,7 @@ import {
         "A management system created to handle databases containing departments, employees and roles. By using mySQL for the databases and using Nodejs and Inquirer for the backend, the user is able to view, add, delete and update the 3 databases however they want.",
       tags: [
         {
-          name: "mySQL",
+          name: "Backend",
           color: "blue-text-gradient",
         },
         {
@@ -302,7 +307,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Javascript",
+          name: "mySQL",
           color: "pink-text-gradient",
         },
       ],
@@ -311,26 +316,26 @@ import {
       deployed: "https://drive.google.com/file/d/1RqK-ZU_w13MFK6ILvQILrRfuzzgkoifP/view",
     },
     {
-      name: "Password Generator",
+      name: "Promptopolis",
       description:
-      "Created a working password generator that took in user input through a series of prompts.",
+      "Prompt application that allows users to use their gmail accounts to log in and create prompts that can be later used for AI applications such as ChatGPT. The user is able to create, edit and delete prompts and share these prompts with other users and create tags for each prompt so that it is easier to search for.",
       tags: [
         {
-          name: "css",
+          name: "Fullstack",
           color: "blue-text-gradient",
         },
         {
-          name: "html",
+          name: "MongoDB",
           color: "green-text-gradient",
         },
         {
-          name: "Javascript",
+          name: "NextJS",
           color: "pink-text-gradient",
         },
       ],
-      image: passwordgenerator,
-      source_code_link: "https://github.com/lwalker107/Password-Generator-Landen",
-      deployed: "https://lwalker107.github.io/Password-Generator-Landen/",
+      image: homepage_screenshot,
+      source_code_link: "https://github.com/lwalker107/share_prompts",
+      deployed: "https://share-prompts-4jbicxdk0-landen-walkers-projects.vercel.app/",
     },
     {
       name: "Weather Dashboard App",
@@ -338,11 +343,11 @@ import {
       "Weather Application that uses 3rd Party API Openweather to get real-time data for whatever city the user inputs into the search bar. Data includes temperature, wind speed, humidity, date, name and an icon that represents the weather. Uses localStorage to keep the data from previous searches persistent on the web app and includes a clear button to clear the local storage also.",
       tags: [
         {
-          name: "css",
+          name: "FrontEnd",
           color: "blue-text-gradient",
         },
         {
-          name: "html",
+          name: "Html",
           color: "green-text-gradient",
         },
         {
