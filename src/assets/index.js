@@ -39,7 +39,7 @@ import socialmedia from "./socialmedia.png";
 import employee_management from "./employee_management.png"
 import passwordgenerator from "./passwordgenerator.png"
 import weatherapp from "./weatherapp.png"
-import homepage_screenshot from "./homepage_screenshot.PNG"
+import homepage_screenshot from "./homepage_screenshot.png"
 import resume from "./resume.png"
 import landen_resume_v3 from "./landen_resume_v3.pdf"
 
