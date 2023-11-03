@@ -34,7 +34,7 @@ import {
     jobit,
     tripguide,
     threejs,
-    homepage_screenshot,
+    homepage,
   } from "../assets";
   
   export const navLinks = [
@@ -333,7 +333,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: homepage_screenshot,
+      image: homepage,
       source_code_link: "https://github.com/lwalker107/share_prompts",
       deployed: "https://share-prompts-4jbicxdk0-landen-walkers-projects.vercel.app/",
     },
